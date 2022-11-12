@@ -1,0 +1,54 @@
+:root {
+    --valores-image: url(../img/background-valores.jpg);
+  }
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    background:rgb(255, 16, 83);
+    padding: 20px;
+    column-gap: 10px;
+    align-items: center;
+}
+nav span {
+    color: white;
+    font-family: 'bold';
+    font-size: 150%;
+  }
+  
+  nav a:first-of-type {
+    margin-left: auto;
+    color: white;
+  }
+
+#valores{
+    
+    background: linear-gradient(rgba(255, 16, 83, 0.3), rgba(255, 16, 83, 0.3)),
+    var(--valores-image);
+    padding: 20px;
+    column-gap: 10px;
+    
+    height: 450px;
+
+}
+#mensagem{
+text-align: center;
+
+}
+#valor{
+    width: 33%;
+
+}
+#value{
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+footer{
+    background-color: #590000;
+}
+#endereco h3{
+margin: 0;
+}
